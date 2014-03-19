@@ -8,7 +8,7 @@ require "sprockets/railtie"
 # require "rails/test_unit/railtie"
 
 Bundler.require(*Rails.groups)
-require "radiojs_rails"
+require "radiojs-rails"
 
 module Dummy
   class Application < Rails::Application
