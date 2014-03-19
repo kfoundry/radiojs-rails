@@ -17,7 +17,7 @@ to implement the observer pattern in your code to help decouple your application
 architecture for greater maintainability.
 DESC
 
-  s.files = Dir["{lib,vendor}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{lib,vendor/assets}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
 
   s.add_dependency "railties", ">= 3.2"
   s.add_development_dependency "rails", ">= 3.2"
